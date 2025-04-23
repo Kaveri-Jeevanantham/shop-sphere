@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import axios from '../utils/axios';
 
 import Slider from '../components/Slider';
 import Carousel from '../components/Carousel';
