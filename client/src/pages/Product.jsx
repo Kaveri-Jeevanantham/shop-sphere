@@ -45,7 +45,7 @@ const Product = () => {
       })
     )
       .unwrap()
-      .then((data) => setPageTitle(`${data.product.title} | Fashionista`));
+      .then((data) => setPageTitle(`${data.product.title} | ShopSphere`));
     return () => {
       dispatch(clearProduct());
       dispatch(clearProducts());

@@ -23,7 +23,7 @@ import {
 import PriceDetails from '../components/PriceDetails';
 
 const Cart = () => {
-  usePageTitle('Shopping Cart | Fashionista');
+  usePageTitle('Shopping Cart | ShopSphere');
   const { cart, status } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const navigate = useNavigate();

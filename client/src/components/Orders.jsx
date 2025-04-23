@@ -12,7 +12,7 @@ import device from '../utils/device';
 import usePageTitle from '../hooks/usePageTitle';
 
 const Orders = () => {
-  usePageTitle('Orders | Fashionista');
+  usePageTitle('Orders | ShopSphere');
   const { status, orders } = useSelector((state) => state.orders);
   const dispatch = useDispatch();
   useEffect(() => {

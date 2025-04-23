@@ -7,7 +7,7 @@ import device from '../utils/device';
 import usePageTitle from '../hooks/usePageTitle';
 
 const Overview = () => {
-  usePageTitle('Dashboard | Fashionista');
+  usePageTitle('Dashboard | ShopSphere');
   const { user } = useSelector((state) => state.auth);
   return (
     <Container>

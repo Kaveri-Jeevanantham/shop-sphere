@@ -21,7 +21,7 @@ const validate = (values) => {
 };
 
 const Login = () => {
-  usePageTitle('Login | Fashionista');
+  usePageTitle('Login | ShopSphere');
   const dispatch = useDispatch();
   const { error } = useSelector((state) => state.auth);
 

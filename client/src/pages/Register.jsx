@@ -70,7 +70,7 @@ const validate = (values) => {
 };
 
 const Register = () => {
-  usePageTitle('Sign Up | Fashionista');
+  usePageTitle('Sign Up | ShopSphere');
   const dispatch = useDispatch();
   const { error } = useSelector((state) => state.auth);
 

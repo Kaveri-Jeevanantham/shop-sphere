@@ -89,7 +89,7 @@ const ProductsComponent = () => {
             })
           );
           setSelectedCategory(productCategoryExist.category);
-          setPageTitle(`${productCategoryExist.category} | Fashionista`);
+          setPageTitle(`${productCategoryExist.category} | ShopSphere`);
         } else {
           setIsPageLoading(false);
           setIsURLInvalid(true);

@@ -82,7 +82,7 @@ const Payment = () => {
         key: RAZORPAY_KEY_ID, // Enter the Key ID generated from the Dashboard
         amount: amount.toString(),
         currency,
-        name: 'Fashionista',
+        name: 'ShopSphere',
         description: 'Thank you for your order',
         image: `${process.env.PUBLIC_URL}/logo512.png`,
         // eslint-disable-next-line camelcase
@@ -122,7 +122,7 @@ const Payment = () => {
           contact: selectedAddress.phoneNumber,
         },
         notes: {
-          address: 'Fashionista ecommerce store',
+          address: 'ShopSphere ecommerce store',
         },
         theme: {
           color: '#008080',

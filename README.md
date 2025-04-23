@@ -1,15 +1,15 @@
 <h1 align="center">
-  <img title="fashionista logo" src="screenshots/logo.png" alt="Fashionista Logo" width="200" />
+  <img title="shopsphere logo" src="screenshots/logo.png" alt="ShopSphere Logo" width="200" />
   <br>
-Fashionista - An Ecommerce Application Built Using React, NodeJS, Express & PostgreSQL
+ShopSphere - An Ecommerce Application Built Using React, NodeJS, Express & PostgreSQL
 </h1>
 
 <p><font size="3">
 This is an ecommerce application built using <strong><em>React</em></strong> as the front end, <strong><em>NodeJS</em></strong> and <strong><em>Express</em></strong> as the back end, and <strong><em>PostgreSQL</em></strong> as the database.
 <br><br>
-Fashionista is a web application where users can shop for products from a variety of categories. Users can filter and sort products by category, price, size, and date. They can also add, remove, and change the product quantity in the cart. Users can place orders with a card, or by using the pay at delivery option. Users can also see their past orders, view profile information, and add or remove addresses from the dashboard section.
+ShopSphere is a web application where users can shop for products from a variety of categories. Users can filter and sort products by category, price, size, and date. They can also add, remove, and change the product quantity in the cart. Users can place orders with a card, or by using the pay at delivery option. Users can also see their past orders, view profile information, and add or remove addresses from the dashboard section.
 <br><br>
-<strong><em>Take a look at the live version here:</em></strong> https://fashionista.up.railway.app/
+<strong><em>Take a look at the live version here:</em></strong> https://shopsphere.up.railway.app/
 </p>
 
 ## Table of Contents
@@ -511,7 +511,7 @@ This component displays important links and information the users may need.
 
 # Live Demo
 
-**_Take a look on the live version here:_** https://fashionista.up.railway.app/
+**_Take a look on the live version here:_** https://shopsphere.up.railway.app/
 
 # Technologies Used
 

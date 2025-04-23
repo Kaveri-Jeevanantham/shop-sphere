@@ -41,7 +41,7 @@ const Footer = () => {
         <FooterItem>
           <ItemTitle>Contact Us</ItemTitle>
           <ItemList>
-            <ListItem>Email: contact@fashionista.com</ListItem>
+            <ListItem>Email: contact@shopsphere.com</ListItem>
           </ItemList>
         </FooterItem>
         <FooterItem>

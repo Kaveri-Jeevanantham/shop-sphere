@@ -17,7 +17,7 @@ import { STATUS } from '../utils';
 import device from '../utils/device';
 
 const Address = () => {
-  usePageTitle('Address | Fashionista');
+  usePageTitle('Address | ShopSphere');
   const [showAddressModal, setShowAddressModal] = useState(false);
   const { addresses, status, defaultAddress, otherAddresses, selectedAddress } =
     useSelector((state) => state.address);

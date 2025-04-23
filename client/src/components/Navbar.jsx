@@ -17,7 +17,7 @@ const Navbar = () => {
     <Header>
       <Navigation>
         <BrandContainer>
-          <Brand to="/">Fashionista</Brand>
+          <Brand to="/">ShopSphere</Brand>
         </BrandContainer>
         <SearchContainer>
           <SearchInput placeholder="Search entire store here..." />

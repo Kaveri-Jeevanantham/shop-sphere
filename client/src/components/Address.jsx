@@ -13,7 +13,7 @@ import { getUserAddresses, setSelectedAddress } from '../store/addressSlice';
 import { STATUS } from '../utils';
 
 const Address = () => {
-  usePageTitle('Address | Fashionista');
+  usePageTitle('Address | ShopSphere');
   const [showAddressModal, setShowAddressModal] = useState(false);
   const { addresses, status, defaultAddress, otherAddresses } = useSelector(
     (state) => state.address

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import usePageTitle from '../hooks/usePageTitle';
 
 const Profile = () => {
-  usePageTitle('Profile | Fashionista');
+  usePageTitle('Profile | ShopSphere');
   const { user } = useSelector((state) => state.auth);
 
   return (

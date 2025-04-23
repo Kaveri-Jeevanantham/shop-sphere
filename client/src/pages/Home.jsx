@@ -16,7 +16,7 @@ import { fetchAllCategories } from '../store/categoriesSlice';
 import device from '../utils/device';
 
 const Home = () => {
-  usePageTitle('Fashionista - Home');
+  usePageTitle('ShopSphere - Home');
   const dispatch = useDispatch();
   const { categories } = useSelector((state) => state.categories);
   const [newProducts, setNewProducts] = useState([]);
