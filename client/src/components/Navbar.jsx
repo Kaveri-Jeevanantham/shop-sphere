@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Link, useLocation } from 'react-router-dom';
 import { Search as SearchIcon, Menu } from 'react-feather';
+import Logo from '../assets/images/png/shopsphere-app-logo.png';
 
 import NavigationList from './NavigationList';
 import Dropdown from './Dropdown';
@@ -17,7 +18,9 @@ const Navbar = () => {
     <Header>
       <Navigation>
         <BrandContainer>
-          <Brand to="/">ShopSphere</Brand>
+          <Brand to="/">
+            <LogoImage src={Logo} alt="ShopSphere Logo" />
+          </Brand>
         </BrandContainer>
         <SearchContainer>
           <SearchInput placeholder="Search entire store here..." />
@@ -72,19 +75,22 @@ const Navigation = styled.nav`
 const BrandContainer = styled.div``;
 
 const Brand = styled(Link)`
-  color: #1b2839;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
   &:hover {
-    color: teal;
+    opacity: 0.8;
   }
+`;
+
+const LogoImage = styled.img`
+  height: 40px;
+  width: auto;
   @media ${device.tablet} {
-    font-size: 22px;
+    height: 35px;
   }
   @media ${device.mobileM} {
-    font-size: 22px;
+    height: 35px;
   }
 `;
 
